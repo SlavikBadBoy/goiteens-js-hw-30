@@ -1,0 +1,16 @@
+{
+  "name": "goiteens-js-hw-30",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel *.html"
+  },
+  "keywords": [],
+  "author": "Vyacheslav Buryachenko <buracenkoslavik@gmail.com>",
+  "license": "ISC",
+  "description": "form",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}

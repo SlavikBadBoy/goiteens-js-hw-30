@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Форма</h1>
+      <form id="feedback-form">
+        <input type="text" id="name" placeholder="Ім'я" required />
+        <input
+          type="email"
+          id="email"
+          placeholder="Електронна пошта"
+          required
+        />
+        <textarea id="message" placeholder="Повідомлення" required></textarea>
+        <button type="submit">Відправити</button>
+      </form>
+      <p id="success-message" class="hidden">Форму успішно відправлено!</p>
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
